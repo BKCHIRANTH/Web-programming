@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<title>LAB 2</title>
+<style>
+#on{
+background-color:maroon;
+padding:25px;
+color:white;
+width:100%;
+font-size:15px;
+
+}
+form{
+padding-left:500px;
+}
+
+
+</style>
+</head>
+
+<body>
+<form name="calci">
+<table style="width:250px;">
+	<tr>
+		<td colspan="4">
+			<input id="on" style="width:250px;" type="text" name="answer" />
+		</td>
+	</tr>
+	<tr>
+			 <td>   <input id="on" type="button" value=" 1 " onclick="calci.answer.value += '1'" /></td>
+			<td>    <input id="on" type="button" value=" 2 " onclick="calci.answer.value += '2'" /></td>
+			<td>    <input id="on" type="button" value=" 3 " onclick="calci.answer.value += '3'" /></td>
+		   <td>     <input id="on" type="button" value=" + " onclick="calci.answer.value += '+'" /></td>
+	 </tr>
+            
+	<tr>
+			
+          <td>   <input id="on" type="button" value=" 4 " onclick="calci.answer.value += '4'" /></td>
+          <td>   <input id="on" type="button" value=" 5 " onclick="calci.answer.value += '5'" /></td>
+           <td>  <input id="on" type="button" value=" 6 " onclick="calci.answer.value += '6'" /></td>
+           <td>  <input id="on" type="button" value=" - " onclick="calci.answer.value += '-'" /></td>
+            </br>
+	</tr>
+	<tr>
+           <td>  <input id="on" type="button" value=" 7 " onclick="calci.answer.value += '7'" /></td>
+           <td>  <input id="on" type="button" value=" 8 " onclick="calci.answer.value += '8'" /></td>
+            <td> <input id="on" type="button" value=" 9 " onclick="calci.answer.value += '9'" /></td>
+           <td>  <input id="on" type="button" value=" * " onclick="calci.answer.value += '*'" /></td>
+            </br>
+	</tr>
+	<tr>
+			<td> <input id="on" type="button" value=" C " onclick="calci.answer.value = ''" /></td>
+            <td> <input id="on" type="button" value=" 0 " onclick="calci.answer.value += '0'" /></td>
+           <td> <input id="on" type="button" value=" = " onclick="calci.answer.value = eval(calci.answer.value)" /></td>
+           <td>  <input id="on" type="button" value=" / " onclick="calci.answer.value += '/'" /></td>
+            </br>
+	</tr>
+</table>
+ </form>
+          
+    </body>
+</html>
+        
