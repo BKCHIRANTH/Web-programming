@@ -1,0 +1,34 @@
+usn{
+display:block;
+
+color:blue;
+}
+student{
+	text-align:center;
+	margin-top:10px;
+display:block;
+}
+
+name{
+	color:red;
+	display:block;
+
+}
+
+nameclg{
+	display:block;
+	color:maroon;
+}
+yoj{
+	color:black;
+	display:block;
+}
+mail{
+	display:block;
+	color:green;
+}
+branch{
+	display:block;
+	color:magenta;
+}
+
