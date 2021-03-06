@@ -1,0 +1,31 @@
+<html>
+<body>
+<input type="text" placeholder="enter string">
+<button type="submit" OnClick="check()">
+submit </button>
+
+<script>
+function check(){
+var str=document.querySelector("input").value;
+var num=parseInt(str);
+
+if(num){
+
+document.querySelector("p").textContent="";
+
+document.querySelector("p").innerAdjacentHTML("beforeend",Number(num.toString().split("").reverse().join("")));
+
+}
+else{
+
+str=str.toLowerCase();
+var arr=str.Split("");
+for(var i=0;i<arr.length;i++){
+if(arr[i]=='a' ||arr[i]=='e' ||arr[i]=='i' ||arr[i]=='o' ||arr[i]=='u'){
+i++;
+document.querySelector("p").textContent="";
+document.querySelector("p").innerAdjacentHTML("beforeend","\n string input :" +str+ "\n Leftmost vowel:"+arr[i-1]+ "\n position:"+i+"\n");break;
+}}}}
+</script>
+</body>
+</html>

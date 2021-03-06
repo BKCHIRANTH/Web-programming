@@ -1,0 +1,22 @@
+<html>
+<head>
+ 
+<script>
+document.write("<center><table class=table> <th>number</th><th>square</th><th>cube</th>")
+for(var n=1;n<=10;n++){
+	document.write("<tr><td>" + n +"</td><td>"+n*n +"</td><td>" +n*n*n+"</td></tr>")
+}
+document.write("</table></center>")
+</script>
+<style>
+table {border-collapse: collapse;
+width:50%;}
+ tr td {border:2px solid white;}
+td {background-color:pink;
+text-align:center;}
+th{ background-color:red;}
+table, tr,td :hover{ background-color:pink;}
+</style>
+</head>
+
+</html>

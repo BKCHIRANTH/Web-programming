@@ -4,25 +4,16 @@
 <students>
 
 <student>
-<usn>4VV15CS001</usn>
+<usn>4VV15EC001</usn>
 <name>ABHILASH</name>
 <nameclg>VVCE</nameclg>
-<branch>CHM</branch>
+<branch>ECE</branch>
 <yoj>2015</yoj>
 <mail>abhi@gmail.com</mail>
 </student>
 
 <student>
-<usn>4VV15CS021</usn>
-<name>CHIRANTH</name>
-<nameclg>SIT</nameclg>
-<branch>CSE</branch>
-<yoj>2016</yoj>
-<mail>chir@gmail.com</mail>
-</student>
-
-<student>
-<usn>4VV15CS020</usn>
+<usn>1UV17CS020</usn>
 <name>CHETHAN</name>
 <nameclg>UVCE</nameclg>
 <branch>ME</branch>
@@ -31,20 +22,20 @@
 </student>
 
 <student>
-<usn>4VV15CS010</usn>
+<usn>4AT11CS010</usn>
 <name>ARVIND</name>
 <nameclg>ATME</nameclg>
-<branch>CV</branch>
+<branch>CSE</branch>
 <yoj>2011</yoj>
 <mail>arvi@gmail.com</mail>
 </student>
 
 
 <student>
-<usn>4VV15CS033</usn>
+<usn>4AI12IS033</usn>
 <name>GOWTHAM</name>
-<nameclg>BVSC</nameclg>
-<branch>ENV</branch>
+<nameclg>AIT</nameclg>
+<branch>ISE</branch>
 <yoj>2012</yoj>
 <mail>gowt@gmail.com</mail>
 </student>

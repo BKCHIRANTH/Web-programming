@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+#on{
+background-color:maroon;
+padding:25px;
+color:white;
+width:100%;
+font-size:15px;
+}
+form{
+padding-left:500px;
+}
+</style>
+</head>
+<body>
+<form name="calci">
+<table style="width:250px;">
+	<tr>
+		<td colspan="4">
+			<input id="on" style="width:280px;" type="text" name="answer" />
+		</td>
+	</tr>
+	<tr>
+<td><input type="button" value="1" id="on" onclick="calci.answer.value+='1'" /></td>
+<td><input type="button" value="2" id="on" onclick="calci.answer.value+='2'" /></td>
+<td><input type="button" value="3" id="on" onclick="calci.answer.value+='3'" /></td>
+<td><input type="button" value="4" id="on" onclick="calci.answer.value+='4'" /></td>
+</tr>
+<tr>
+
+<td><input type="button" value="5" id="on" onclick="calci.answer.value+='5'" /></td>
+<td><input type="button" value="6" id="on" onclick="calci.answer.value+='6'" /></td>
+<td><input type="button" value="7" id="on" onclick="calci.answer.value+='7'" /></td>
+<td><input type="button" value="8" id="on" onclick="calci.answer.value+='8'" /></td>
+</tr><br>
+<tr>
+<td><input type="button" value="9" id="on" onclick="calci.answer.value+='9'" /></td>
+<td><input type="button" value="0" id="on" onclick="calci.answer.value+='0'" /></td>
+<td><input type="button" value="+" id="on" onclick="calci.answer.value+='+'" /></td>
+<td><input type="button" value="-" id="on" onclick="calci.answer.value+='-'" /></td>
+</tr><br>
+<tr>
+<td><input type="button" value="*" id="on" onclick="calci.answer.value+='*'" /></td>
+<td><input type="button" value="/" id="on" onclick="calci.answer.value+='/'" /></td>
+<td><input type="button" value="C" id="on" onclick="calci.answer.value=''" /></td>
+<td><input type="button" value="=" id="on" onclick="calci.answer.value=eval(calci.answer.value)" /></td>
+</tr><br>
+</table>
+</form>
+</body>
+</html>

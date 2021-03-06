@@ -1,0 +1,53 @@
+body {
+    background: rgb(204,204,204) !important;
+    font-family: 'Lato', sans-serif !important;
+    margin: 0; padding: 0;
+	background-color:lime;
+}
+*{
+    -webkit-print-color-adjust: exact; 
+}
+@page { 
+    size: auto;  margin: 0mm; 
+}
+
+hr{
+color:blue;
+}
+
+page {
+    background-color: white !important;
+   
+    display: block;
+    margin: 0 auto;
+    overflow: hidden; 
+    
+}
+
+page[size="A4"] {  
+    width: 815px;
+    height: 1055px;
+}
+.row {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.startright{
+	margin-top:-20px
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.personal{
+margin-left: 25px;
+font-size:20px;
+font-family: Lato;
+color:blue;
+}	
+.personal-para{
+margin-left: 150px;
+font-size:18px;
+color:black;
+}
+
